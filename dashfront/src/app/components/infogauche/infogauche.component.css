@@ -1,0 +1,18 @@
+.text{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: 'Raleway', serif;
+    font-size: 125%;
+    color: white;
+}
+
+.bouton_envoyer{
+    margin-top: 5%;
+    margin-left: 31%;
+}
+
+.form{
+    margin-left: 10%;
+    width: 80%;
+}

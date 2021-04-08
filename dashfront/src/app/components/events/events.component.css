@@ -1,0 +1,105 @@
+.titre {
+	font-size: 23px;
+    color: black;
+    font-weight: bold;
+}
+
+.date {
+	font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.date {
+	font-size: 20px;
+    color: grey;
+    font-weight: bold;
+}
+
+.adresse {
+	font-size: 20px;
+    margin-top: 50pxpx;
+    color: grey;
+}
+
+.description {
+	font-size: 18px;
+    color: black;
+}
+
+.liens {
+	font-size: 18px;
+    color:blue;
+    text-decoration: underline;
+}
+  
+section {
+    transform: rotate(0deg);
+    display: flex;
+    width: 400px;
+    height: 160px;
+    background: lightgray;
+}
+
+#conteneur{
+    display: flex;
+}
+
+.element{
+    margin-left: 15px;
+}
+
+.compteur{
+    color: white;
+    font-size: 16px;
+}
+
+
+
+/* ------------------- */
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 1px #000; */
+    border-radius: 10px;
+    background-color:#893010;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #cc4e0f;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.element_event {
+    width: 72%;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.element_bouton1{
+    margin-top: 0.4%;
+    width: 15%;
+}
+
+.element_bouton2{
+    margin-top: 0.4%;
+    width: 15%;
+
+}

@@ -1,0 +1,30 @@
+<body>
+  <div class="message-p pn2">
+    <div class="message-header">
+
+      <!-- On retrouve sur ce bandeau le titre de l'API ainsi que deux bouton "suivant" et "précédent" qui permettent de naviguer entre les événements -->
+      <div class="element_bouton1"><input class="favorite styled" (click)="onClick(-1)" type="button" value="Précédent"> </div>
+      <div class="element_event">ÉVÉNEMENTS<div id="cmp" class="compteur"> 1/3</div></div>
+      <div class="element_bouton2"><input class="favorite styled" (click)="onClick(1)" type="button" value="Suivant"> </div>
+    </div>
+    
+    <!-- Le contenu de la box des évenements affiche l'image de l'évenement sur la gauche de cette dernière, puis à droite on retrouve toutes les
+          informations relative a l'événement, c'est a dire son intitulé, sa date, l'adresse et une petite description -->
+    <div id="conteneur">
+      <div class="element">
+        <img id="photo" src="{{events.evenement1[3]}}" height="233" width="350"/>
+      </div>
+      <div id="element" class="element" >
+        <div id="titre" class="titre">{{events.evenement1[0]}}</div>      
+        <div id="date" class="date">{{events.evenement1[1]}}</div>
+        <div id="adresse" class="adresse">{{events.evenement1[2]}}</div>
+        <div id="description" class="description">{{events.evenement1[4]}}</div>
+        <div class="liens"><a class="liens" id="liens" href={{events.evenement1[5]}} target="_blank">Plus d'information</a></div>
+        <br>
+        <!-- Un compteur qui permet de savoir sur quel événement l'utilisateur se trouve -->
+        
+      </div>
+    </div>
+    
+  </div>
+</body>

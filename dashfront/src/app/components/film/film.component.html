@@ -1,0 +1,58 @@
+<div class="donut-main">
+  
+  <h4>Film à l'affiche</h4>
+        <!--ici il faudra mettre l api-->
+    <div class="affiche">
+    <div class='slider'>
+    <div class='slides'>
+        <div class='slide'><img id='photo' height="450" width="300" *ngFor="let listeAffiche of film2" src="https://image.tmdb.org/t/p/w500/{{listeAffiche.affiche}}" alt="pic" /></div>
+    </div>
+  </div>
+
+  </div>
+
+  
+</div>
+<!--NEW EARNING STATS -->
+
+<!--new earning end-->
+<!-- RECENT ACTIVITIES SECTION -->
+<h4 class="centered mt">Titre</h4>
+<!-- First Activity -->
+<div class="rest">
+  <div class="details">
+    
+    <div class='desc'>
+      <div class='slides'>
+            <div id='date' class='text' *ngFor="let listeTitre of film2">{{listeTitre.titre}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Second Activity -->
+<h4 class="centered mt">Date de Sortie</h4>
+<!-- First Member -->
+<div class="rest">
+  <div class="details">
+    <div class='desc'>
+          <div class='slides'>
+            <div id='date' class='text' *ngFor="let listeDate of film2">{{listeDate.dateDeSortie}}</div>
+          </div>
+    </div>
+  </div>
+</div>
+<!-- Third Activity -->
+<h4 class="centered mt">Description</h4>
+<!-- First Member -->
+<div class="desc">
+  <div class="details">
+    <div class='desc'>
+      <div class='slides'>
+          <div id='description' class='text' *ngFor="let listeDescription of film2">{{listeDescription.description}}</div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
