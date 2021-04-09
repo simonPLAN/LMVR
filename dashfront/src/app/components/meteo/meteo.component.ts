@@ -46,3 +46,25 @@ export class MeteoComponent implements OnInit {
 }
 
 
+
+/*
+export class MeteoComponent implements OnInit {
+  Meteo:any=[];
+
+  constructor(private apiService:ApiService) {}
+  ngOnInit(): void {
+    this.apiService.GetMeteo().subscribe(res=>{
+      console.log(res)
+      this.Meteo=res;
+    });
+  }
+
+
+
+
+}
+
+
+*/
+
+
