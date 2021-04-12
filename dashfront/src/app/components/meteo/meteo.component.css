@@ -1,15 +1,19 @@
 .weather {
-	background: url(../../../assets/img/weather.jpg) no-repeat center top;
 	text-align: 80px;
 	background-position: left;
 	background-color: #893010;
 	margin-right: -10px;
+	background: url(../../../assets/img/weather.jpg) center;
+
 }
 .text{
 text-align: center;
 font-family: 'Raleway', sans-serif;
 
+
+
 }
+
 .text2{
 	font-family: 'Raleway', sans-serif;
 	text-align: left;

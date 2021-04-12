@@ -786,7 +786,6 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 	display: inline-block;
 	padding: 15px 0;
 	width: 100%;
-    margin-left:-5px;
 }
 
 .ds .desc:hover {
@@ -1101,7 +1100,8 @@ PANELS CONFIGURATIONS
 
 /* Weather 1 */
 .weather {
-	background: url(../assets/img/weather.jpg) no-repeat center top;
+    background: url(../../src/assets/img/weather.jpg) center;
+
 	text-align: center;
 	background-position: center center;
 }

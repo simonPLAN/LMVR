@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-
+// on appelle la backend 
   REST_API: string='http://localhost:3000/location/Le%20Mans';
   constructor(private HttpClient:HttpClient) { }
   GetMeteo(){

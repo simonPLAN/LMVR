@@ -17,8 +17,6 @@ import { EventsComponent } from './components/events/events.component';
   declarations: [
     AppComponent,
     MeteoComponent,
-   
-    
     covidComponent,
     InfogaucheComponent,
     FilmComponent,

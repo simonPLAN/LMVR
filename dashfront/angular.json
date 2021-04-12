@@ -1,8 +1,5 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "97fec0c3-aae0-4e70-b7ed-b1e402a6a29b"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -39,6 +36,7 @@
               "src/cssDashio/to-do.css",
               "src/cssDashio/zabuto_calendar.css",
               "src/cssDashio/font-awesome.css"
+              
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
