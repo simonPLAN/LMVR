@@ -29,7 +29,8 @@ function changerEvent(sens, evenement1, evenement2, evenement3){
         document.getElementById('date').innerHTML = evenement1[1];
         document.getElementById('adresse').innerHTML = evenement1[2];
         document.getElementById('photo').src = evenement1[3];
-        document.getElementById('description').innerHTML = evenement1[4]; 
+        document.getElementById('description').innerHTML = evenement1[4];
+        document.getElementById('liens').href = evenement1[5]; 
 
         document.getElementById('cmp').innerHTML = "1/3";
     
@@ -40,6 +41,7 @@ function changerEvent(sens, evenement1, evenement2, evenement3){
         document.getElementById('adresse').innerHTML = evenement2[2];
         document.getElementById('photo').src = evenement2[3];
         document.getElementById('description').innerHTML = evenement2[4];
+        document.getElementById('liens').href = evenement2[5]; 
             
         document.getElementById('cmp').innerHTML = "2/3";
     
@@ -50,6 +52,7 @@ function changerEvent(sens, evenement1, evenement2, evenement3){
         document.getElementById('adresse').innerHTML = evenement3[2];
         document.getElementById('photo').src = evenement3[3];
         document.getElementById('description').innerHTML = evenement3[4];
+        document.getElementById('liens').href = evenement3[5]; 
             
         document.getElementById('cmp').innerHTML =  "3/3";
 
