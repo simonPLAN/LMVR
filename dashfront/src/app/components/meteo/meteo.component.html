@@ -1,18 +1,17 @@
- 
-   
    <div class="weather pn">
-     <div class="text">
-        <!-- appel des informations depuis le fichier script -->
-
-        <img src="{{ meteo.icon }}" alt="pic" />                                        
-         
-        <h2>{{ meteo.temperature }}º C</h2>  
-        <h4>{{ meteo.ville }}</h4>
-        
-        <div class="box"></div>
-      </div>
-      
-    </div>
-   
+    <div class="text">
+       <!-- appel des informations depuis le fichier script -->
+       <div class="font"></div>
+       <img src="http://openweathermap.org/img/wn/{{ Meteo.weather[0].icon }}@2x.png" alt="pic" />
+       <h2>{{ Meteo.main.temp }}º C</h2>  
+       <h4>{{ Meteo.name }}</h4>
+       
+       <div class="box"></div>
+     </div>
+     
+   </div>
   
+ 
+
+
 

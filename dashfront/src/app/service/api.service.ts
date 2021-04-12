@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
 
-  REST_API: string='http://localhost:3080/meteo';
+  REST_API: string='http://localhost:3000/location/Le%20Mans';
   constructor(private HttpClient:HttpClient) { }
   GetMeteo(){
     console.log(this.HttpClient.get(`${this.REST_API}`));
